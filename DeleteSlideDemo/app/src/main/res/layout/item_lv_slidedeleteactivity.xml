@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="70dp">
+
+    <com.kuang.deleteslideview.view.SlideDeleteView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/sdv_item_lv_activity">
+
+        <include layout="@layout/content_slideview"></include>
+        <include layout="@layout/delete_slideview"></include>
+
+    </com.kuang.deleteslideview.view.SlideDeleteView>
+
+</LinearLayout>

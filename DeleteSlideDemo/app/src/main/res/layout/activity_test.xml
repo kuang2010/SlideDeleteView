@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivity">
+    <!--自定义view的内容的宽高是怎样的(不能是wrap_content)，自定义view的宽高就是怎样的-->
+    <com.kuang.deleteslideview.view.SlideDeleteView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <include layout="@layout/content_slideview"></include>
+
+        <include layout="@layout/delete_slideview"></include>
+
+    </com.kuang.deleteslideview.view.SlideDeleteView>
+
+
+    <com.kuang.deleteslideview.view.SlideDeleteView
+        android:layout_marginTop="20dp"
+        android:background="#ff0000"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+
+        <include layout="@layout/content_slideview"></include>
+
+        <include layout="@layout/delete_slideview"></include>
+
+    </com.kuang.deleteslideview.view.SlideDeleteView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
