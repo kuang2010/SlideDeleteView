@@ -245,3 +245,5 @@ delete
 
 
 ![image](https://github.com/kuang2010/SlideDeleteView/blob/master/1.png)
+
+##Author:kuang ze yu
