@@ -242,3 +242,6 @@ delete
         android:id="@+id/tv_delete_slideview"/>
 
 </LinearLayout>
+
+
+![image](https://github.com/kuang2010/SlideDeleteView/blob/master/1.png)
