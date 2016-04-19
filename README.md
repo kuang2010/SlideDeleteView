@@ -227,21 +227,21 @@ delete
       </RelativeLayout>
       
 ####delete_slideview.xml:(删除)
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="100dp"
               android:background="#ff0000"
               android:layout_height="70dp">
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:padding="10dp"
-        android:gravity="center"
-        android:text="删除"
-        android:id="@+id/tv_delete_slideview"/>
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              android:gravity="center"
+              android:text="删除"
+              android:id="@+id/tv_delete_slideview"/>
 
-</LinearLayout>
+      </LinearLayout>
 
 
 ![image](https://github.com/kuang2010/SlideDeleteView/blob/master/1.png)
