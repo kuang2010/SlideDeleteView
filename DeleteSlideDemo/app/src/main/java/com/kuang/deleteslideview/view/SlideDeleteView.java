@@ -10,8 +10,6 @@ import android.widget.Scroller;
 
 /**
  * Created by KZY on 2016/4/19.
- * 自定义view没有点击事件(因为其指定的view不是inflate进来的)，只有touch和单击事件
-   自定义组合控件有点击事件
  */
 public class SlideDeleteView extends ViewGroup {
 
